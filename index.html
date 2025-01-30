@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 Grammy Nominations Forum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="title">2025 GRAMMY NOMINATIONS FORUM</h1>
+        <p id="description">Vote for your favorite nominees!</p>
+
+        <form id="survey-form">
+            <label id="name-label" for="name">Your Full Name</label>
+            <input type="text" id="name" placeholder="Type here..." required>
+
+            <label id="email-label" for="email">Your Email Address</label>
+            <input type="email" id="email" placeholder="example@email.com" required>
+
+            <label id="number-label" for="number">Your Age</label>
+            <input type="number" id="number" placeholder="e.g. 26" min="13" max="100" required>
+
+ <div class="dropdown">           <label for="dropdown">Which artist do you think will win Album of the Year?</label>
+            <select id="dropdown">
+                <option value="" disabled selected>Select Option</option>
+                <option value="taylor">Taylor Swift — 'The Tortured Poets Department'</option>
+                <option value="billie">Billie Eilish — 'HIT ME HARD AND SOFT'</option>
+                <option value="beyonce">Beyoncé — 'COWBOY CARTER'</option>
+                <option value="andre 3000">André 3000 — 'New Blue Sun'</option>
+                <option value="sabrina">Sabrina Carpenter — 'Short n' Sweet'</option>
+           <option value="charli xcx">Charli xcx — 'BRAT'</option>
+              <option value="chappell roan">Chappell Roan — 'The Rise and Fall of a Midwest Princess'</option>
+              <option value="jacob collier">Jacob Collier — 'Djesse Vol. 4'</option> </div>
+            </select>
+
+            <fieldset>
+                <legend>Who will take home Song of the Year?</legend>
+                <label><input type="radio" name="song" value="shaboozey"> "A Bar Song (Tipsy)" – Shaboozey</label>
+                <label><input type="radio" name="song" value="billie"> "Birds of a Feather" – Billie Eilish</label>
+                <label><input type="radio" name="song" value="gaga"> "Die With a Smile" – Lady Gaga & Bruno Mars</label>
+                <label><input type="radio" name="song" value="taylor"> "Fortnight" – Taylor Swift feat. Post Malone</label>
+                <label><input type="radio" name="song" value="chappell"> "Good Luck, Babe!" – Chappell Roan</label>
+                <label><input type="radio" name="song" value="kendrick"> "Not Like Us" – Kendrick Lamar</label>
+                <label><input type="radio" name="song" value="sabrina"> "Please Please Please" – Sabrina Carpenter</label>
+                <label><input type="radio" name="song" value="beyonce"> "Texas Hold 'Em" – Beyoncé</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Which of these artists do you think will win Best New Artist?</legend>
+                <label><input type="checkbox" value="benson"> Benson Boone</label>
+                <label><input type="checkbox" value="sabrina"> Sabrina Carpenter</label>
+                <label><input type="checkbox" value="doechii"> Doechii</label>
+                <label><input type="checkbox" value="khruangbin"> Khruangbin</label>
+                <label><input type="checkbox" value="raye"> Raye</label>
+                <label><input type="checkbox" value="chappell"> Chappell Roan</label>
+                <label><input type="checkbox" value="shaboozey"> Shaboozey</label>
+                <label><input type="checkbox" value="teddy"> Teddy Swims</label>
+            </fieldset>
+
+            <label for="comments">Any additional thoughts or predictions?</label>
+            <textarea id="comments" placeholder="Type here..."></textarea>
+
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
